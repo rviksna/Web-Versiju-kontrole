@@ -17,12 +17,14 @@ header {
 
 /* Container for flexboxes */
 section {
+  
   display: -webkit-flex;
   display: flex;
 }
 
 /* Style the navigation menu */
 nav { 
+   color: white;
   background-image: url("skola.jpg");
   background-size: contain;
   -webkit-flex: 1;
@@ -34,6 +36,7 @@ nav {
 
 /* Style the list inside the menu */
 nav ul {
+  color: white;
   list-style-type: none;
   
   padding: 0;
